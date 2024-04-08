@@ -1,4 +1,4 @@
-#Exercicio 2
+<h1>☕Exercicio 2☕</h1>
 <p>
 1 - Crie um programa que realize a média de duas notas decimais e exiba o resultado.
 
