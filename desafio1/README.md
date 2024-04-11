@@ -1,66 +1,56 @@
-Jacqueline: Vamos deixar um desafio para você. Pode parecer mais simples do que quando trabalhamos juntos, mas quando estamos iniciando um projeto de fato, pode ser que tenhamos dificuldade quanto tentarmos por conta própria.
+<p>Jacqueline: Vamos deixar um desafio para você. Pode parecer mais simples do que quando trabalhamos juntos, mas quando estamos iniciando um projeto de fato, pode ser que tenhamos dificuldade quanto tentarmos por conta própria.</p>
 
-Apresentaremos um projeto para nos desafiar e, ao longo das aulas, iremos resolver e fazer sugestões de como trabalhar. Assim, iremos consolidar os conhecimentos com tudo o que aprendemos no curso.
+<p>Apresentaremos um projeto para nos desafiar e, ao longo das aulas, iremos resolver e fazer sugestões de como trabalhar. Assim, iremos consolidar os conhecimentos com tudo o que aprendemos no curso.</p>
 
-No IntelliJ, a ideia é controlarmos nossa conta bancária virtual e nomearemos os métodos como recebeTransferencia(), fazTransferencia(), enviaPix() ou recebePix(), por exemplo. Mas poderemos nomear como acharmos melhor.
+<p>No IntelliJ, a ideia é controlarmos nossa conta bancária virtual e nomearemos os métodos como recebeTransferencia(), fazTransferencia(), enviaPix() ou recebePix(), por exemplo. Mas poderemos nomear como acharmos melhor.</p>
 
-A proposta é iniciarmos os dados do cliente como um extrato, e em seguida, teremos quatro opções de operações com a linha para inserir a opção desejada:
+<p>A proposta é iniciarmos os dados do cliente como um extrato, e em seguida, teremos quatro opções de operações com a linha para inserir a opção desejada:</p>
 
-***********************
-Dados iniciais do cliente:
+<hr>
 
-Nome: Jacqueline Oliveira
-Tipo conta: Corrente
-Saldo inicial: R$ 2500,00
-***********************
+<p><strong>Dados iniciais do cliente:</strong></p>
 
-Operações
+<p>Nome: Jacqueline Oliveira<br>
+Tipo conta: Corrente<br>
+Saldo inicial: R$ 2500,00</p>
 
-1- Consultar saldos
-2- Receber valor
-3- Transferir valor
-4- Sair
+<hr>
 
-Digite a opção desejada:COPIAR CÓDIGO
-Se apertarmos a tecla "1", iremos consultar o saldo e mostraremos o valor atual de R$ 2500.0, mas se apertarmos "2", exibiremos um segundo campo para escrevermos: Informe o valor a receber:.
+<p><strong>Operações</strong></p>
 
-Inseriremos o valor que iremos depositar, como 700 por exemplo, e, ao apertarmos "Enter", mostraremos o saldo atualizado de R$ 3200.0.
+<ol>
+    <li>Consultar saldos</li>
+    <li>Receber valor</li>
+    <li>Transferir valor</li>
+    <li>Sair</li>
+</ol>
 
-//omitido
+<p>Digite a opção desejada:</p>
 
-Digite a opção desejada:
-2
+<p>Se apertarmos a tecla "1", iremos consultar o saldo e mostraremos o valor atual de R$ 2500.0, mas se apertarmos "2", exibiremos um segundo campo para escrevermos: Informe o valor a receber:.</p>
 
-Informe o valor a receber:
-700
+<p>Inseriremos o valor que iremos depositar, como 700 por exemplo, e, ao apertarmos "Enter", mostraremos o saldo atualizado de R$ 3200.0.</p>
 
-Saldo atualizado R$ 3200.0COPIAR CÓDIGO
-Mas se formos fazer uma transferência ou um saque com a tecla "3", teremos o campo Informe o valor que deseja transferir:. Se digitarmos 1000, exibiremos o saldo atualizado de R$ 2200.0.
+<p>Se formos fazer uma transferência ou um saque com a tecla "3", teremos o campo Informe o valor que deseja transferir:. Se digitarmos 1000, exibiremos o saldo atualizado de R$ 2200.0.</p>
 
-//omitido
+<p>Por fim, para encerrarmos a aplicação, bastará apertarmos a tecla "4" em Digite a opção desejada:. Mas se digitarmos um número inválido como "9" por exemplo, receberemos a mensagem Opção inválida.</p>
 
-Digite a opção desejada:
-3
+<p>Se temos dois mil e duzentos reais e tentarmos transferir um valor maior que este, como 500, teremos uma mensagem de que o saque não pode ser realizado:</p>
 
-Informe o valor que deseja transferir:
-1000
+<blockquote>Não há saldo suficiente para fazer essa transferência.</blockquote>
 
-Saldo atualizado R$ 2200.0COPIAR CÓDIGO
-Por fim, para encerrarmos a aplicação, bastará apertarmos a tecla "4" em Digite a opção desejada:. Mas se digitarmos um número inválido como "9" por exemplo, receberemos a mensagem Opção inválida.
+<p>Com este projeto, conseguiremos praticar tudo o que aprendemos no curso, como declaração de variável, condicional e loop.</p>
 
-Se temos dois mil e duzentos reais e tentarmos transferir um valor maior que este, como 500, teremos uma mensagem de que o saque não pode ser realizado:
+<p>Nossa sugestão é que faça por etapas passando por cada detalhe e testando, como em um checklist:</p>
 
-Não há saldo suficiente para fazer essa transferência.
+<ul>
+    <li>Inicializar dados do cliente</li>
+    <li>Menu de opções</li>
+    <li>Visualização do saldo</li>
+    <li>Enviar valor</li>
+    <li>Receber valor</li>
+</ul>
 
-Com este projeto, conseguiremos praticar tudo o que aprendemos no curso, como declaração de variável, condicional e loop.
+<p>Esperamos que te ajude a fixar ainda melhor o conteúdo. Se quiser, compartilhe conosco, nos marque no LinkedIn ou coloque no GitHub!</p>
 
-Nossa sugestão é que faça por etapas passando por cada detalhe e testando, como em um checklist:
-
-Inicializar dados do cliente
-Menu de opções
-Visualização do saldo
-Enviar valor
-Receber valor
-Esperamos que te ajude a fixar ainda melhor o conteúdo. Se quiser, compartilhe conosco, nos marque no LinkedIn ou coloque no GitHub!
-
-A seguir, daremos as dicas para resolvermos o desafio.
+<p>A seguir, daremos as dicas para resolvermos o desafio.</p>
