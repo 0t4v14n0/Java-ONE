@@ -9,9 +9,9 @@ public class Cliente {
 	
 	public Cliente(int id ,String nome, double saldo, String tipoconta) {
 		this.id = id;
-        this.nome = nome;
-        this.saldo = saldo;
-        this.tipoconta = tipoconta;
+        	this.nome = nome;
+        	this.saldo = saldo;
+        	this.tipoconta = tipoconta;
     }
 	
 	//gets e sets...
