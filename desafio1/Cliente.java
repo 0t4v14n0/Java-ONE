@@ -12,7 +12,7 @@ public class Cliente {
         	this.nome = nome;
         	this.saldo = saldo;
         	this.tipoconta = tipoconta;
-    }
+        }
 	
 	//gets e sets...
 	
