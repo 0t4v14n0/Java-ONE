@@ -10,10 +10,10 @@ public class Musica {
 	
 	public Musica(String titulo ,String artista, int anoLancamento, double avaliacao, int numAvaliacao) {
 		this.titulo = titulo;
-        this.artista = artista;
-        this.anoLancamento = anoLancamento;
-        this.avaliacao = avaliacao;
-        this.numAvaliacao = numAvaliacao;
+        	this.artista = artista;
+        	this.anoLancamento = anoLancamento;
+        	this.avaliacao = avaliacao;
+        	this.numAvaliacao = numAvaliacao;
     }
 	
 	public void avaliacao(double avalia) {
