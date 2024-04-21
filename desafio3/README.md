@@ -10,6 +10,3 @@ Exibir lista de compras: as compras realizadas devem ser exibidas em ordem de va
 
 <h3>Instruções</h3>
 <p>O aluno tem liberdade para montar a aplicação da forma que preferir, utilizando os conceitos aprendidos ao longo do curso.</p>
-
-<h3>Próximos Passos</h3>
-<p>No próximo vídeo, o instrutor irá ajudar na implementação, mas é recomendado que o aluno tente construir a aplicação por conta própria para explorar seus conhecimentos.</p>
