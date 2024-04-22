@@ -4,10 +4,11 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 import com.viso.util.Bandeira;
+import com.viso.util.Erro;
 
 public class Main {
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws Exception {
 		
 		int tentativas = 3;
 		
@@ -31,37 +32,25 @@ public class Main {
 	            
 	            Bandeira numeroCartao = new Bandeira(bigInteger);
 	            
-	        	if (numeroCartao.getValidacao()) {
+	        	if (numeroCartao.getValidacao() == true) {
 	        		System.out.println(numeroCartao.getBandeira());
 	        	}
 	        	else {
 	        		
-	        	}
-	            
-	            break;
-	            
+	        		Erro.quantidadeErro();
+	        		
+		        	if(Erro.getTentativas() == 0) {
+		        		break;
+		        	}
+	        	}        
 	                      
-	        } catch (NumberFormatException e) {// tudo ok...
+	        } catch (NumberFormatException e) {
 	        	
-	        	tentativas--;
-	        	// se acabar as tentativas FIM...
-	        	if(tentativas == 0) {
-	        		System.out.println("FIM...");
+	        	Erro.quantidadeErro();
+	        	
+	        	if(Erro.getTentativas() == 0) {
 	        		break;
 	        	}
-	        	
-	            System.out.println("Erro: o numero do cartao inserido nao e valido.");
-	            System.out.println("Voce tem mais: "+tentativas+" tentativas.");
-	            System.out.println("Em 3 segundos uma nova tentativa.");
-	            
-	            // time sleep de 3 segundos.
-	            Thread.sleep(3000);
-	            
-	            //limpar a tela usando for com prints vazios.
-	            for(int i = 0; i <= 1;i++){
-	            	System.out.println("");
-	            }
-	            
 	        }
 			
 		}while(true);
