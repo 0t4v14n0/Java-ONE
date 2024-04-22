@@ -9,9 +9,7 @@ import com.viso.util.Erro;
 public class Main {
 	
 	public static void main(String[] args) throws Exception {
-		
-		int tentativas = 3;
-		
+	
 		Scanner scanner = new Scanner(System.in);
 		
 		do {
