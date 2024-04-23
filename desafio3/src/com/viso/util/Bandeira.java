@@ -20,6 +20,7 @@ public class Bandeira{
 		this.numeroCartao = numero;
 	}
 	
+	//retorna a bandeira do cartao
 	public String getBandeira() {
 		
 		calcInicioCartao();
@@ -50,7 +51,8 @@ public class Bandeira{
 		
 		int quantidadeDigitos = segura.length();//quantidade de caracteres
 		
-		if (quantidadeDigitos > 16 && quantidadeDigitos > 15) {
+		if (quantidadeDigitos <= 16 && quantidadeDigitos >= 15) {
+			// chama a classe lunh e realiza o calculo retorna true or false
 			if(Luhn.checkValidade(segura)) {
 				return true;
 			}else {
