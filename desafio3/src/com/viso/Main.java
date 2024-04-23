@@ -153,8 +153,4 @@ public class Main {
 		Thread.sleep(3000);
 	}
 
-	private <T extends Object> double totalProduo(T t1) {
-		return 0;
-	}
-
 }
