@@ -1,0 +1,3 @@
+- 4 - Defina uma classe chamada Veiculo com os atributos necessários. Em
+seguida, crie um programa que instancia um objeto Veiculo, serializa esse
+objeto para JSON usando a biblioteca Gson e imprime o resultado.
